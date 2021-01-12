@@ -4,6 +4,6 @@ import org.springframework.data.jpa.repository.JpaRepository;
 
 import com.example.algamoney.api.model.Lancamento;
 
-public interface CategoriaRepository extends JpaRepository<Lancamento, Long> {
+public interface LancamentoRepository extends JpaRepository<Lancamento, Long> {
 
 }
